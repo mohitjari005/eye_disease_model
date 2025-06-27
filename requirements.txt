@@ -1,6 +1,8 @@
 fastapi==0.115.14
 numpy==2.3.1
 Pillow==11.2.1
-tensorflow-cpu==2.18.0
-tensorflow_intel==2.18.0
+tensorflow-cpu==2.13.0
+tensorflow_intel==2.13.0
 uvicorn==0.34.3
+python-multipart
+jinja2
