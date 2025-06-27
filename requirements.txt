@@ -1,6 +1,6 @@
 streamlit
 fastapi==0.115.14
-numpy==2.3.1
+numpy==2.0.2
 Pillow==11.2.1
 tensorflow==2.18.0
 tensorflow-cpu==2.18.0
