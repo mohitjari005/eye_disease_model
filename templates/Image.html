@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Base64 Image</title>
+</head>
+<body>
+    <h2>Base64 Image Display</h2>
+    {% if image_base64 %}
+        <img src="data:image/{{ image_format }};base64,{{ image_base64 }}" alt="Base64 Image" />
+    {% else %}
+        <p>No image data provided.</p>
+    {% endif %}
+</body>
+</html>
